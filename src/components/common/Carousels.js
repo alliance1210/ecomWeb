@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import {
   Paper,
-  Button,
   Box,
   Modal,
-  Container,
   Typography,
 } from "@mui/material";
 import { ThemeProvider } from "styled-components";
@@ -179,7 +177,7 @@ function Item(props) {
           <Box sx={{ padding: "10px" }}>
             <h2>{item.name}</h2>
           </Box>
-        </Box>
+        </Box>  
       </Paper>
    </Box>
       
